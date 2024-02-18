@@ -1,0 +1,16 @@
+
+syntax="proto3";
+
+package pingpong;
+
+service PingPong{
+    rpc SendPingMessage (Ping) returns (Pong) {}
+}
+
+message Ping{
+    string PingMessage = 1; 
+}
+
+message Pong{
+    string PongMessage = 1;
+}
