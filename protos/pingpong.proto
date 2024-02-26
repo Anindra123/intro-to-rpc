@@ -5,6 +5,7 @@ package pingpong;
 
 service PingPong{
     rpc SendPingMessage (Ping) returns (Pong) {}
+    rpc SendFooMessage (Foo) returns (Bar) {}
 }
 
 message Ping{
@@ -13,4 +14,13 @@ message Ping{
 
 message Pong{
     string PongMessage = 1;
+}
+
+
+message Foo{
+    string FooMessage = 1;
+}
+
+message Bar{
+    string BarMessage = 1;
 }

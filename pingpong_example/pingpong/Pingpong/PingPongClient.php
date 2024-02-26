@@ -30,4 +30,18 @@ class PingPongClient extends \Grpc\BaseStub {
         $metadata, $options);
     }
 
+    /**
+     * @param \Pingpong\Foo $argument input argument
+     * @param array $metadata metadata
+     * @param array $options call options
+     * @return \Grpc\UnaryCall
+     */
+    public function SendFooMessage(\Pingpong\Foo $argument,
+      $metadata = [], $options = []) {
+        return $this->_simpleRequest('/pingpong.PingPong/SendFooMessage',
+        $argument,
+        ['\Pingpong\Bar', 'decode'],
+        $metadata, $options);
+    }
+
 }

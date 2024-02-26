@@ -12,12 +12,19 @@ function SendPingMessage(call, callback) {
   }
 }
 
+function SendFooMessage(call, callback) {
+  if (call.request.FooMessage === "foo") {
+    callback(null, { BarMessage: "bar" });
+  }
+}
+
 const server = new grpc.Server();
 server.addService(pingpong.PingPong.service, {
   SendPingMessage: SendPingMessage,
+  SendFooMessage: SendFooMessage,
 });
 server.bindAsync(
-  "0.0.0.0:50051",
+  "0.0.0.0:40000",
   grpc.ServerCredentials.createInsecure(),
   (error) => {
     console.log(error);
