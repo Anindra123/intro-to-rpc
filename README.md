@@ -8,12 +8,10 @@ RPC is mechanism that allows distributed systems to communicate. This repository
 
 - A local function when called executes some code within its own address space
 
-<div style="display:flex;align-items:center;justify-content:center;margin-top:50px;margin-bottom:50px;">
 
+<p align="center" dir="auto">
 <img src="./images/local_procedure_call.png"  width=300>
-
-
-</div>
+</p>
 
 - A remote procedure call gets executed but in a different machine or address space
 
@@ -22,25 +20,21 @@ RPC is mechanism that allows distributed systems to communicate. This repository
 - The implementation detail for both server and client will be same
 
 
-<div style="display:flex;align-items:center;justify-content:center;margin-top:50px;margin-bottom:50px;">
-
-
+<p align="center" dir="auto">
 <img src="./images/remote_procedure_call.png" width=600>
 
+</p>
 
-</div>
 
 
 ## What is gRPC ?
 
-<div style="display:flex;justify-content:center;margin-top:20px;margin-bottom:20px;">
-
+<p align="center" dir="auto">
 <a src="https://grpc.io/">
-
 <img src="./images/grpc-logo.png" alt="grpc-logo" width=200>
 
 </a>
-</div>
+</p>
 
 <br/>
 
@@ -58,73 +52,68 @@ RPC is mechanism that allows distributed systems to communicate. This repository
 <br/>
 <br/>
 
-<div style="display:flex;align-items:center;justify-content:center;column-gap:50px">
-
-<a href="">
+<table align="center" >
+<tr>
+<td>
+<a >
 
 <img src="./images/cisco.svg" width=150 >
 
 </a>
+</td>
 
-
-<a href="">
+<td>
+<a >
 
 <img src="./images/netflix-logo.png" width=150 >
 
 </a>
+</td>
 
-
-
-<a href="">
+<td>
+<a >
 
 <img src="./images/coreos-1.png" width=150>
 
 </a>
 
-
-
-
-
-
-
-
-</div>
-
-<br>
-<br>
-<br>
-
-<div style="display:flex;align-items:center;justify-content:center;column-gap:50px;margin-bottom:50px;">
-
-
-
+</td>
+</tr>
+<tr>
+<td>
 <a href="">
 
 <img src="./images/juniperlogo.png" width=150>
 
 </a>
-
+</td>
+<td>
 <a href="">
 
 <img src="./images/square-icon.png" width=150 >
 
 </a>
+</td>
 
+<td>
 <a href="">
+
 
 <img src="./images/cockroach-1.png" width=150>
 
 </a>
+</td>
+</tr>
+</table>
 
-</div>
+<br>
+<br>
 
 - Supported in a wide array of programming languages
 
+<br>
 
-<div style="display:flex;align-items:center;justify-content:center;">
-
-
-<table style="margin-top:50px">
+<table align="center">
 
 <tr style="display:flex;align-items:center;">
 
@@ -235,4 +224,3 @@ RPC is mechanism that allows distributed systems to communicate. This repository
 </table>
 
 
-</div>
