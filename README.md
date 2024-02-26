@@ -114,53 +114,57 @@ RPC is mechanism that allows distributed systems to communicate. This repository
 <br>
 
 <table align="center">
+<tr>
+<td >
 
-<tr style="display:flex;align-items:center;">
-
-<td style="width:150px;height:150px;display:flex;flex-direction:column;justify-content:space-between;align-items:center;">
+<p align="center">
 
 <img src="./images/C++_Logo.svg.png" width=100>
+
+</p>
 
 <p align="center">C++</p>
 
 </td>
 
-<td style="width:150px;height:150px;display:flex;flex-direction:column;justify-content:space-between;align-items:center;">
+<td >
 
+<p align="center">
 <img src="./images/Ruby_logo.svg" width=100>
-
-<div>
+</p>
 
 <p align="center">Ruby</p>
-</div>
 </td>
 
 
 
-<td style="width:150px;height:150px;display:flex;flex-direction:column;justify-content:space-between;align-items:center;">
+<td >
 
+<p align="center">
 <img src="./images/C_Sharp_logo.svg" width=100>
+</p>
 
 <p align="center">C#</p>
 </td>
 
-<td style="width:150px;height:150px;display:flex;flex-direction:column;justify-content:space-between;align-items:center;">
+<td >
 
+<p align="center" >
 <img src="./images/Go_Logo_Blue.svg" width=100>
+</p>
 
 <div>
 
 <p align="center">GO</p>
 </div>
 </td>
-
 </tr>
 
 
-<tr style="display:flex;align-items:center;">
+<tr >
 
 
-<td style="width:150px;height:150px;display:flex;flex-direction:column;justify-content:space-between;align-items:center;">
+<td >
 
 <img src="./images/PHP-logo.svg" width=100>
 
@@ -173,21 +177,19 @@ RPC is mechanism that allows distributed systems to communicate. This repository
 
 
 
-<td style="width:150px;height:150px;display:flex;flex-direction:column;justify-content:space-between;align-items:center;">
+<td >
 
 <img src="./images/Python-logo-notext.svg" width=100>
 
-<div>
 
 <p align="center">Python</p>
 
-</div>
 
 </td>
 
 
 
-<td style="width:150px;height:150px;display:flex;flex-direction:column;justify-content:space-between;align-items:center;">
+<td >
 
 <img src="./images/Java_programming_language_logo.svg" width=100 height=110>
 
@@ -201,19 +203,11 @@ RPC is mechanism that allows distributed systems to communicate. This repository
 
 
 
-<td style="width:150px;height:150px;display:flex;flex-direction:column;justify-content:space-between;align-items:center;">
-
-<div style="flex:1;padding-top:20px">
+<td >
 
 <img src="./images/Node.js_logo.svg" width=100 >
-
-</div>
-
-<div>
-
 <p align="center">Node JS</p>
 
-</div>
 
 </td>
 
