@@ -38,7 +38,12 @@ function CreateTodo(call, callback) {
   callback(null, call.request);
 }
 
+// This handles server streaming
 function ReadTodo(call, callback) {
+  //go through each of the todo item
+  // send them to the client as stream of responses
   todos.forEach((todo) => call.write(todo));
+
+  // when it is finish close the stream
   call.end();
 }
