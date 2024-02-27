@@ -327,6 +327,10 @@ RPC is mechanism that allows distributed systems to communicate. This repository
 
 - Since it is hidden any updates to the protocol does not effect the client or server application
 
+### Performing Actions
+
+- Easy to create and perform actions on server
+
 
 ### Use of Protocol Buffers
 
@@ -438,6 +442,8 @@ message HelloReply {
 
 - Defining the schema can become a hassle
 
+- Client can become bloated
+
 - Steep learning curve
 
 - No proper error handling
@@ -470,7 +476,9 @@ message HelloReply {
 - [Where should you use gRPC? And where NOT to use it! by CodeOpinion](https://www.youtube.com/watch?v=4SuFtQV8RCk&pp=ygUDcnBj)
 
 
+# Examples
 
+- [demo-example]()
 
 
 

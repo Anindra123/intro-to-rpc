@@ -9,12 +9,16 @@ const pingpong = grpcPackageDef.pingpong;
 function SendPingMessage(call, callback) {
   if (call.request.PingMessage === "ping") {
     callback(null, { PongMessage: "pong" });
+  } else {
+    callback(null, { PongMessage: "did not understand your message" });
   }
 }
 
 function SendFooMessage(call, callback) {
   if (call.request.FooMessage === "foo") {
     callback(null, { BarMessage: "bar" });
+  } else {
+    callback(null, { PongMessage: "did not understand your message" });
   }
 }
 
