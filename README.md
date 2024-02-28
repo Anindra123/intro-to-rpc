@@ -480,7 +480,7 @@ message HelloReply {
 
 - [demo-example](https://github.com/Anindra123/intro-to-rpc/tree/main/demo_example)
 - [todo-example](https://github.com/Anindra123/intro-to-rpc/tree/main/todo_example)
-
+- [greetings-example](https://github.com/Anindra123/intro-to-rpc/tree/main/greetings_example)
 
 
 
