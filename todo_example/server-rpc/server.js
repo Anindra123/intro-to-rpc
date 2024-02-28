@@ -26,6 +26,7 @@ server.bindAsync(
 server.addService(todo.Todo.service, {
   CreateTodo: CreateTodo,
   ReadTodo: ReadTodo,
+  CreateBulkTodo: CreateBulkTodo,
 });
 
 //these are the function that client will invoke
@@ -46,4 +47,19 @@ function ReadTodo(call, callback) {
 
   // when it is finish close the stream
   call.end();
+}
+
+//handle client streaming
+function CreateBulkTodo(call, callback) {
+  let count = 0;
+  // the data event is fired everytime client sends a data
+  call.on("data", (todo) => {
+    todos.push(todo);
+    count++;
+  });
+
+  //after all the data has been processed send a response
+  call.on("end", () => {
+    callback(null, { text: `Added ${count} tasks to todo` });
+  });
 }

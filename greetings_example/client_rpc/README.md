@@ -1,6 +1,6 @@
-# Todo Example Client RPC in PHP
+# Greetings Example Client RPC in PHP
 
-This is a simple rpc client for sending rpc request to server. This client has example for both unary rpc call, server streaming and client streaming rpc call.
+This is a simple rpc client for sending rpc request to server. This client has example for unary rpc call.
 
 ## Dependencies
 
@@ -66,7 +66,7 @@ $ protoc  \
 - Run the server after installing the dependencies
 
 ```bash
-    cd intro-to-rpc/todo-example/server-rpc
+    cd intro-to-rpc/greetings_example/server-rpc
 
     npm install
 
@@ -76,29 +76,18 @@ $ protoc  \
 - Install client dependencies
 
 ```bash
-   cd intro-to-rpc/todo-example/client-rpc
+   cd intro-to-rpc/greetings_example/client-rpc
 
    composer install
 ```
 
 - For running the unary example
-- This will create a new todo on the server
+- This will send a greetings response from server with your name
 
 ```bash
-    php src/CreateTodo.php todo_name
+    php src/GreetUser.php your_name
 ```
 
-- For running the server streaming example
-- This will print out all the todos stored at the server
-```bash
-    php src/ReadTodo.php 
-```
-
-- For running the client streaming example
-- This will allow to send multiple todo at once to server 
-```bash
-    php src/CreateBulkTodo.php task-1 task-2 task-3
-``
 
 
 

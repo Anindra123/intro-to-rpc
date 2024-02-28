@@ -1,5 +1,5 @@
-# Demo Example Server RPC example
-This server rpc provides the necessary methods for handling rpc request from client. This server rpc example provides unary rpc implementation only.
+# Greetings Example Server RPC example
+This server rpc provides the necessary methods for handling rpc request from client. This server rpc example provides unary rpc implementation.
 
 ## Dependencies
 - @grpc/grpc-js
@@ -22,7 +22,7 @@ This server rpc provides the necessary methods for handling rpc request from cli
 - Install npm dependencies
 
 ```bash
-    cd intro-to-rpc/demo-example/server-rpc
+    cd intro-to-rpc/greetings_example/server-rpc
 
     npm install
 ```
@@ -33,5 +33,5 @@ This server rpc provides the necessary methods for handling rpc request from cli
    node server.js
 ```
 
-- This will start a rpc server at ``localhost:40000`` and will listen for incoming rpc request from client
+- This will start a rpc server at ``localhost:60000`` and will listen for incoming rpc request from client
 

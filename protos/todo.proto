@@ -5,9 +5,14 @@ package Todo;
 service Todo{
     rpc CreateTodo(TodoItem) returns (TodoItem){};
     rpc ReadTodo(Empty) returns (stream TodoItem){};
+    rpc CreateBulkTodo(stream TodoItem) returns (Response){};
 }
 
 message Empty{}
+
+message Response{
+    string text = 1;
+}
 
 message TodoItem{
     int32 id = 1;

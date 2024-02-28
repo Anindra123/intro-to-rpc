@@ -1,5 +1,5 @@
 # Todo Example Server RPC example
-This server rpc provides the necessary methods for handling rpc request from client. This server rpc example provies unary rpc implementation and server streaming implementation.
+This server rpc provides the necessary methods for handling rpc request from client. This server rpc example provides unary rpc implementation, server streaming and client streaming implementation.
 
 ## Dependencies
 - @grpc/grpc-js

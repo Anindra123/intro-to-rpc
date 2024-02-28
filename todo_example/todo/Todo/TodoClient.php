@@ -44,4 +44,15 @@ class TodoClient extends \Grpc\BaseStub {
         $metadata, $options);
     }
 
+    /**
+     * @param array $metadata metadata
+     * @param array $options call options
+     * @return \Grpc\ClientStreamingCall
+     */
+    public function CreateBulkTodo($metadata = [], $options = []) {
+        return $this->_clientStreamRequest('/Todo.Todo/CreateBulkTodo',
+        ['\Todo\Response','decode'],
+        $metadata, $options);
+    }
+
 }

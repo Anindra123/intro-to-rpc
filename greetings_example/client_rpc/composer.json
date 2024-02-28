@@ -1,0 +1,19 @@
+{
+  "name": "anindra/client_rpc",
+  "autoload": {
+    "psr-4": {
+      "Anindra\\ClientRpc\\": "src/",
+      "": "../greetings"
+    }
+  },
+  "authors": [
+    {
+      "name": "Anindra Das Bivas",
+      "email": "bivasdas911@gmail.com"
+    }
+  ],
+  "require": {
+    "grpc/grpc": "^1.57",
+    "google/protobuf": "^3.25"
+  }
+}
